@@ -1,0 +1,122 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    font-family: 'Poppins' , sans-serif;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2ab8a9;
+    min-height: 80vh;
+}
+
+.wrapper{
+    background: #fff;
+    padding: 30px 30px 25px;
+    width:600px;
+    border-radius: 15px;
+}
+
+.wrapper header{
+    font-size: 35px;
+    text-align: center;
+    font-weight: 550;
+}
+
+.wrapper .content{
+    margin: 34px 0;
+}
+
+.q-area .quote1{
+    text-align: centre;
+    font-size: 21px;
+    word-break: break-all;
+}
+
+.content .q-area{
+    display: flex;
+    justify-content: center;
+}
+
+.q-area i{
+    font-size: 15px;
+}
+
+.q-area i:first-child{
+    margin:3px 10px 0 0;
+}
+
+.q-area i:last-child{
+    margin:0 0 3px 10px;
+    display: flex;
+   align-items: flex-end;
+}
+
+.content .a-name{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px ;
+    font-style: italic;
+    font-size:17px;
+}
+
+.a-name span:first-child{
+    font-family: monospace;
+    margin: -7px 5px 0 0;
+}
+
+.wrapper .buttons{
+    border-top: 1px solid #ccc;
+}
+
+.buttons .features{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top:19px;
+}
+
+.features ul{
+    display: flex;
+}
+
+.features ul li{
+    margin: 0 5px;
+    width: 47px;
+    height:47px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2ab8a9;
+    border-radius: 50%;
+    border: 2px solid #2ab8a9;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.features ul li:hover{
+    color: #fff;
+    background: #2ab8a9;
+}
+
+.features button{
+    padding: 12px 22px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    background: #2ab8a9;
+    color: #fff;
+    cursor: pointer;
+    font-style: 16px;
+}
+
+button.loading{
+    opacity: 0.7;
+    pointer-events: none;
+}
